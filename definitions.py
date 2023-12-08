@@ -9,8 +9,11 @@ def read_inputs(day):
         puzzle_input = file.read()
     return input_example, puzzle_input
 
-def read_inputs2(day):
+def read_inputs2(day, additional_input_number):
     cwd = os.path.dirname(os.path.abspath(__file__))
-    with open(os.path.join(cwd, day, "input_example2")) as file:
-        input_example = file.read()
-    return input_example
+    inputs=[]
+    for i in range(additional_input_number):
+        with open(os.path.join(cwd, day, "input_example"+str(i+2))) as file:
+            input_example = file.read()
+            inputs.append(input_example)
+    return inputs

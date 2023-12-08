@@ -3,7 +3,7 @@ from definitions import read_inputs, read_inputs2
 input_example, puzzle_input = read_inputs('Day 1')
 
 try:
-    input_example2 = read_inputs2('Day 1')
+    input_example2 = read_inputs2('Day 1', 1)[0]
 except:
     pass
 
