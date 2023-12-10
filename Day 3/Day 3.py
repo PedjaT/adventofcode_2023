@@ -9,7 +9,7 @@ except:
     pass
 
 
-def soolution(example):
+def solution(example):
     numbers = []
     stars = []
     k = 0
@@ -85,6 +85,6 @@ def soolution(example):
 
 
 print('\ninput_example')
-soolution(input_example)
+solution(input_example)
 print('\npuzzle_input')
-soolution(puzzle_input)
+solution(puzzle_input)

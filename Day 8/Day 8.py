@@ -9,7 +9,7 @@ except:
     pass
 
 
-def soolution1(example):
+def solution1(example):
     s = example.split("\n")
     instructions = s[0]
     current = 'AAA'
@@ -41,7 +41,7 @@ def countperiod(current, nodes, instructions):
                 return visited_ends[current], steps - visited_ends[current]
 
 
-def soolution2(example):
+def solution2(example):
     s = example.split("\n")
     instructions = s[0]
     current = []
@@ -62,11 +62,11 @@ def soolution2(example):
 
 
 print('\ninput_example1')
-soolution1(input_example)
+solution1(input_example)
 print('\ninput_example2')
-soolution1(input_example2)
+solution1(input_example2)
 print('\ninput_example3')
-soolution2(input_example3)
+solution2(input_example3)
 print('\npuzzle_input')
-soolution1(puzzle_input)
-soolution2(puzzle_input)
+solution1(puzzle_input)
+solution2(puzzle_input)

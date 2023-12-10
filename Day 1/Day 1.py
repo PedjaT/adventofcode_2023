@@ -8,7 +8,7 @@ except:
     pass
 
 
-def soolution1(example):
+def solution1(example):
     s = example.split('\n')
     cs = 0
     for l in s:
@@ -25,7 +25,7 @@ def soolution1(example):
     print('Solution for part 1 is:', cs)
 
 
-def soolution2(example):
+def solution2(example):
     s = example.split('\n')
     cs = 0
     for l in s:
@@ -47,8 +47,8 @@ def soolution2(example):
 
 
 print('\ninput_example')
-soolution1(input_example)
-soolution2(input_example2)
+solution1(input_example)
+solution2(input_example2)
 print('\npuzzle_input')
-soolution1(puzzle_input)
-soolution2(puzzle_input)
+solution1(puzzle_input)
+solution2(puzzle_input)
